@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .rubik-pixels-regular {
     font-family: "Rubik Pixels", system-ui;
     font-weight: 400;
@@ -10,11 +18,35 @@
 
 body{
     background-color: grey;
-}
+    font-family: 10px;
+    font-family: 'Jersey 10', sans-serif;
+  }
+  
+  ul, li {
+    font-family: 'Rubik Pixels', system-ui;
+  }
 
 html, body{
     margin: 0;
     padding: 0;
+}
+
+ul, ol{
+    padding: 0;
+    list-style-position: inside
+}
+
+a, a:visited{
+    color: crimson;
+}
+a:active, a:hover{
+    color: blue;
+}
+
+p.caption{
+    font-size: 16px;
+    font-style: oblique;
+    margin-top: 0;
 }
 
 header{
@@ -35,13 +67,32 @@ header .pfp{
     margin: 0 auto;
 }
 
-header h1{
+ h1{
    
         font-family: "Rubik Pixels", system-ui;
         font-weight: 400;
         font-style: normal;
-        font-size: 70px;
+        font-size: 50px;
         margin: 10px 0 20px 0;
         color: black;
       
+}
+
+h2{
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+    color: black;
+  
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img{
+    max-width: 100%;
 }

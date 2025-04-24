@@ -16,7 +16,7 @@
   }
   
 
-body{
+body {
     background-color: grey;
     font-family: 10px;
     font-family: 'Jersey 10', sans-serif;
@@ -26,37 +26,37 @@ body{
     font-family: 'Rubik Pixels', system-ui;
   }
 
-html, body{
+html, body {
     margin: 0;
     padding: 0;
 }
 
-ul, ol{
+ul, ol {
     padding: 0;
     list-style-position: inside
 }
 
-a, a:visited{
+a, a:visited {
     color: crimson;
 }
-a:active, a:hover{
+a:active, a:hover {
     color: blue;
 }
 
-p.caption{
+p.caption {
     font-size: 16px;
     font-style: oblique;
     margin-top: 0;
 }
 
-header{
+header {
     text-align: center;
     background-color: crimson;
     padding: 20px;
 
 }
 
-header .pfp{
+header .pfp {
     width: 300px;
     height: 300px;
     border: 20px solid black;
@@ -67,7 +67,7 @@ header .pfp{
     margin: 0 auto;
 }
 
- h1{
+h1 {
    
         font-family: "Rubik Pixels", system-ui;
         font-weight: 400;
@@ -78,7 +78,7 @@ header .pfp{
       
 }
 
-h2{
+h2 {
     font-family: "Rubik Pixels", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -88,11 +88,27 @@ h2{
   
 }
 
-main{
+main {
     width: 800px;
     margin: 0 auto;
 }
 
-main img{
+main img {
     max-width: 100%;
 }
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: crimson;
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer a {
+    color: black;
+}
+
+
+

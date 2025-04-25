@@ -88,9 +88,16 @@ h2 {
   
 }
 
+@media (max-width: 600px) {
+    h2{
+        font-size: 30px;
+    }
+}
+
 main {
-    width: 800px;
+    max-width: 100%;
     margin: 0 auto;
+    padding: 0% 20px;
 }
 
 main img {
@@ -98,12 +105,19 @@ main img {
 }
 
 footer {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     background-color: crimson;
     padding: 40px;
     text-align: center;
     margin-top: 60px;
+
+}
+
+@media (max-width: 600px) {
+    footer p{
+        font-size: 20px;
+    }
 }
 
 footer a {
